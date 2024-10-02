@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin:0;
+   
+ }
+ 
+ 
+ /* Cabecera */
+ .cabecera__iconos__item{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 600px;
+ }
+ 
+ 
+ 
+ 
+ /* Seccion 1 informacion general */
+ 
+ 
+ .informacion_General{
+    margin:0%;
+ 
+ 
+ }
+ 
+ 
+ .iconos_Informacion{
+    display: flex;
+    gap: 40px;
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Style.css
+ 
+ *{
+    padding: 0;
+    margin:0;
+   
+ }
+ 
