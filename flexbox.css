@@ -4,7 +4,11 @@
    
  }
  
- 
+
+ .header{
+   padding: 2% 0% 10% 15%;
+ }
+
  /* Cabecera */
  .cabecera__iconos__item{
     display: flex;
@@ -13,21 +17,18 @@
  }
  
  
- 
- 
  /* Seccion 1 informacion general */
- 
  
  .informacion_General{
     width: 50% ;
     display: flex;
      /* flex-direction: column; */
     gap: 40px;
-    justify-content: space-between;
+    /*justify-content: space-between; */
+    align-items: center;
  
  
  }
- 
  
  .iconos_Informacion{
     display: flex;
