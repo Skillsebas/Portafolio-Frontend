@@ -18,6 +18,7 @@
 
  /* Seccion 1 informacion general */
  .informacion_General{
+   background-color: lightblue;
    display: flex;
    padding: 10% 20%;
    justify-content: space-between;
@@ -38,6 +39,33 @@
     margin-top: -1500px;
  }
  
+ .container {
+  display: flex;
+  flex-direction: column; /* or row if you want horizontal layout */
+}
 
+.container > section {
+  flex: 1; /* This makes all sections take equal space */
+  gap: 20px; /* Adjust the value for desired spacing */
+}
+
+.sobre_mi {
+   background-color: lightcoral;
+}
+
+.skills {
+   background-color: lightgreen;
+}
    
+ .Formacion_academica {
+   background-color: lavender;
+ }
+
+ .experiencia_profesional {
+   background-color: slategray;
+ }
+
+ .contacto{
+   background-color: lightpink;
+ }
  
