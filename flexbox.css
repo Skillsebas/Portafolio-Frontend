@@ -27,11 +27,19 @@ flex-direction: column; /* or row if you want horizontal layout */
  .informacion_General{
    background-color: lightblue;
    display: grid;
-   grid-template-columns: repeat(3, 1fr); /* Creates 3 equal-width columns */ 
-   padding: 10% 10%; 
-
-   
+   gap: 30px;
+  /* grid-template-columns: repeat(3, 1fr); /* Creates 3 equal-width columns */ 
+   padding: 5% 20%; 
  }
+
+h1 {
+     margin-top: 20px; /* Adjust the value as needed */
+   }
+
+p {
+     margin-top: 20px; /* Adjust the value as needed */
+   }
+
 
  .iconos_Informacion{
     display: flex;
