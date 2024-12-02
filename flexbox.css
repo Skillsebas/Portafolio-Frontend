@@ -19,12 +19,14 @@
   display: grid;
   grid-template-rows: repeat(6, 30%); /* Creates 3 equal-width columns */
   margin-top: 0;
-
+  justify-content: center;
 }
 
  /* Seccion 1 informacion general */
  .informacion_General{
    display: flex; /* Enable flexbox for the inner container to align items side-by-side */
+   align-items: center; /* Center items vertically */
+   justify-content: space-between; /* Space between items */
    background-color: rgb(204, 221, 209);
    gap: 5px;
    padding: 3% 20%; 
@@ -53,29 +55,44 @@
     margin-top: -1200px; */
  }
  
+  /* Seccion 2 sobre mi */
 .sobre_mi {
+   display: flex; /* Enable flexbox for the inner container to align items side-by-side */
+   align-items: center; /* Center items vertically */
+   justify-content: space-between; /* Space between items */
    background-color: rgb(233, 218, 218);
    padding: 3% 20%;
-   justify-content: space-between;
    gap: 10%;
+
 }
 
+/* Seccion 3 skills*/
 .skills {
+   justify-content: space-between; /* Space between items */
+   text-align: center;
+   justify-content: center;
    background-color: lightgreen;
    padding: 3% 20%;
-   text-align: center;
-
+   gap: 10%;
 }
 
 .container_squares_skills {
   display: flex; /* Enable flexbox for the container */
+  align-items: center; /* Center items vertically */
+  justify-content: space-between; /* Space between items */
   justify-content: space-around;
-  margin-bottom: 20px;
+  margin-top: 80px;
+  gap: 10%;
 }
 
 .container_squares_hobbies {
   display: flex; /* Enable flexbox for the container */
+  align-items: center; /* Center items vertically */
+  justify-content: space-between; /* Space between items */
   justify-content: space-around; /* Distribute squares evenly */
+  align-items: center;
+  margin-top: 80px;
+  gap: 10%;
 }
 .square {
   display: flex;
@@ -104,16 +121,82 @@
   box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15); /* Enhanced shadow on hover */
  }
 
-
+/* Seccion 4 skills*/
  .Formacion_academica {
+   align-items: center; /* Center items vertically */
+   justify-content: space-between; /* Space between items */
    background-color: lavender;
    padding: 3% 20%;
+   text-align: center;
  }
 
+.container_squares_formacion{
+  display: flex; /* Enable flexbox for the container */
+  justify-content: space-around;
+  margin-top: 80px;
+}
+
+.square_formacion{
+  display: flex;
+  flex-direction: column; /* Stack the icon and text vertically */
+  align-items: center; /* Center items */
+  justify-content: center; /* Center content vertically */
+  border: 1px solid #ddd; /* Optional: border for styling */
+  border-radius: 8px; /* Rounded corners */
+  width: 200px; /* Fixed width for each skill box */
+  height: 200px; /* Fixed height for each skill box */
+  text-align: center; /* Align text in the center */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add shadow for effect */
+  padding: 10px;
+  transition: transform 0.3s ease; /* Smooth hover effect */
+}
+
+.square_formacion img {
+  width: 50%;
+  height: 50%;
+}
+
+/* Seccion 5 skills*/
  .experiencia_profesional {
+   display: flex; 
+   justify-content: space-between;
    background-color: slategray;
    padding: 3% 20%;
+   gap: 40%;
  }
+
+.project_encriptador_img{
+  width: 70%;
+  height: 70%;
+  margin-top: 50px;
+}
+
+
+.btn-repositorio {
+  background-color: #D8DFE8;
+  border: 1px solid #0A3871;
+  border-radius: 24px;
+  color:white;
+  cursor: pointer;
+  height: 67px;
+  width: 328px;
+  margin-bottom: 20px;
+  margin-top: 50px;
+}
+
+
+.btn-ver-demo {
+  background-color: #D8DFE8;
+  border: 1px solid #0A3871;
+  border-radius: 24px;
+  color:white;
+  cursor: pointer;
+  height: 67px;
+  width: 328px;
+  margin-bottom: 20px;
+  margin-top: 50px;
+}
+
 
  .contacto{
    background-color: lightpink;
