@@ -17,7 +17,7 @@
  
  .container {
   display: grid;
-  grid-template-rows: repeat(6, 30%); /* Creates 3 equal-width columns */
+  grid-template-rows: repeat(6, 20%); /* Creates 3 equal-width columns */
   margin-top: 0;
   justify-content: center;
 }
@@ -81,7 +81,7 @@
   align-items: center; /* Center items vertically */
   justify-content: space-between; /* Space between items */
   justify-content: space-around;
-  margin-top: 80px;
+  margin-top: 20px;
   gap: 10%;
 }
 
@@ -91,7 +91,7 @@
   justify-content: space-between; /* Space between items */
   justify-content: space-around; /* Distribute squares evenly */
   align-items: center;
-  margin-top: 80px;
+  margin-top: 20px;
   gap: 10%;
 }
 .square {
@@ -121,7 +121,7 @@
   box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15); /* Enhanced shadow on hover */
  }
 
-/* Seccion 4 skills*/
+/* Seccion 4 formacion academica*/
  .Formacion_academica {
    align-items: center; /* Center items vertically */
    justify-content: space-between; /* Space between items */
@@ -133,7 +133,7 @@
 .container_squares_formacion{
   display: flex; /* Enable flexbox for the container */
   justify-content: space-around;
-  margin-top: 80px;
+  margin-top: 30px;
 }
 
 .square_formacion{
@@ -156,20 +156,27 @@
   height: 50%;
 }
 
-/* Seccion 5 skills*/
+/* Seccion 5 experiencia profesional*/
  .experiencia_profesional {
    display: flex; 
    justify-content: space-between;
    background-color: slategray;
    padding: 3% 20%;
-   gap: 40%;
+   gap: 20%;
  }
 
-.project_encriptador_img{
-  width: 70%;
-  height: 70%;
-  margin-top: 50px;
-}
+ .project_encriptador_img{
+  margin-top: 10px;
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+ }
+
+ .botones{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ }
 
 
 .btn-repositorio {
@@ -197,10 +204,54 @@
   margin-top: 50px;
 }
 
+/* Seccion 6 contacto*/
+ .contacto {
+  display: flex; 
+  justify-content: space-between;
+  background-color: lightpink;
+  padding: 3% 20%;
+  gap: 20%; 
+ }
+  
+ input,
+ textarea,
+ select {
+   width: 300%;
+   max-width: 100%;
+ }
 
- .contacto{
+  /* display: flex;
+   align-items: center;
+   justify-content: space-between;
    background-color: lightpink;
    padding: 3% 20%;
+   gap: 20%; /*
  }
  
+ form.form-contacto {
+  display: table;
+} 
+ div.form-label {
+  display: table-row;
+}
 
+
+
+
+label,
+input {
+  display: table-cell;
+  margin-bottom: 10px;
+}
+
+label {
+  padding-right: 10px;
+}
+
+
+.img_contacto{
+  margin-top: 10px;
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+}
