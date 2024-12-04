@@ -220,38 +220,14 @@
    max-width: 100%;
  }
 
-  /* display: flex;
-   align-items: center;
-   justify-content: space-between;
-   background-color: lightpink;
-   padding: 3% 20%;
-   gap: 20%; /*
+.form-contacto label {
+  margin-bottom: 50px; /* Adjust the value (e.g., 15px, 20px) for more/less space */
  }
- 
- form.form-contacto {
-  display: table;
-} 
- div.form-label {
-  display: table-row;
-}
 
 
 
 
-label,
-input {
-  display: table-cell;
-  margin-bottom: 10px;
-}
-
-label {
-  padding-right: 10px;
-}
-
-
-.img_contacto{
-  margin-top: 10px;
-  object-fit: contain;
-  width: 100%;
-  height: 100%;
+  footer {
+    background-color: red; /* temporary */
+    padding: 2% 0% 10% 15%;
 }
