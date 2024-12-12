@@ -1,17 +1,23 @@
+
 *{
     padding: 0;
     margin:0;
    
  }
 
+
  .header{
    padding: 2% 0% 8% 15%;
  }
 
- /* body { 
-  min-height: 50vh; 
+
+ /* body {
+  min-height: 50vh;
   display: flex;
   flex-direction: column;  */
+
+
+
 
 
 
@@ -25,9 +31,11 @@
  .container {
   display: flex;
   flex-direction: column;
-  /* grid-template-rows: repeat(6, 20%); /* Creates 3 equal-width columns */
-  margin-top: 0;
+  /*grid-template-rows: repeat(6, 20%); /* Creates 3 equal-width columns */
+  /*margin-top: 0;*/
+  min-height: 100vh;
 }
+
 
  /* Seccion 1 informacion general */
  .informacion_General{
@@ -36,17 +44,21 @@
    justify-content: space-between; /* Space between items */
    background-color: rgb(204, 221, 209);
    gap: 5px;
-   padding: 3% 20%; 
+   padding: 3% 20%;
  }
+
 
 .informacion_escrita h1 {
      margin-top: 20px; /* Adjust the value as needed */
    }
 
+
 .informacion_escrita p {
      margin-top: 20px; /* Adjust the value as needed */
      margin-bottom: 20px; /* Adjust the value as needed */;
    }
+
+
 
 
  .iconos_Informacion{
@@ -72,6 +84,7 @@
    gap: 10%;
 }
 
+
 /* Seccion 3 skills*/
 .skills {
    justify-content: space-between; /* Space between items */
@@ -82,6 +95,7 @@
    gap: 10%;
 }
 
+
 .container_squares_skills {
   display: flex; /* Enable flexbox for the container */
   align-items: center; /* Center items vertically */
@@ -90,6 +104,7 @@
   margin-top: 20px;
   gap: 10%;
 }
+
 
 .container_squares_hobbies {
   display: flex; /* Enable flexbox for the container */
@@ -122,10 +137,12 @@
   height: 20%;
 }
 
+
 .square:hover {
   transform: scale(1.1); /* Slightly enlarge on hover */
   box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15); /* Enhanced shadow on hover */
  }
+
 
 /* Seccion 4 formacion academica*/
  .Formacion_academica {
@@ -136,11 +153,13 @@
    text-align: center;
  }
 
+
 .container_squares_formacion{
   display: flex; /* Enable flexbox for the container */
   justify-content: space-around;
   margin-top: 30px;
 }
+
 
 .square_formacion{
   display: flex;
@@ -157,19 +176,22 @@
   transition: transform 0.3s ease; /* Smooth hover effect */
 }
 
+
 .square_formacion img {
   width: 50%;
   height: 50%;
 }
 
+
 /* Seccion 5 experiencia profesional*/
  .experiencia_profesional {
-   display: flex; 
+   display: flex;
    justify-content: space-between;
    background-color: slategray;
    padding: 3% 20%;
    gap: 20%;
  }
+
 
  .project_encriptador_img{
   margin-top: 10px;
@@ -178,11 +200,14 @@
   height: 100%;
  }
 
+
  .botones{
   display: flex;
   flex-direction: column;
   align-items: center;
  }
+
+
 
 
 .btn-repositorio {
@@ -198,6 +223,8 @@
 }
 
 
+
+
 .btn-ver-demo {
   background-color: #D8DFE8;
   border: 1px solid #0A3871;
@@ -210,16 +237,19 @@
   margin-top: 50px;
 }
 
+
 /* Seccion 6 contacto*/
  .contacto {
-  display: flex; 
+  display: flex;
   justify-content: space-between;
   background-color: lightpink;
   padding: 3% 20%;
-  gap: 20%; 
+  gap: 20%;
+
 
  }
-  
+ 
+ /*
  input,
  textarea,
  select {
@@ -227,12 +257,29 @@
    max-width: 100%;
  }
 
+
 .form-contacto label {
-  margin-bottom: 50px; /* Adjust the value (e.g., 15px, 20px) for more/less space */
- }
+  margin-bottom: 50px; /* Adjust the value (e.g., 15px, 20px) for more/less space
+}
+  */
+ 
 
 
   footer {
     background-color: rgb(206, 179, 179); /* temporary */
     padding: 2% 0% 10% 15%;
 }
+
+
+.informacion_General,
+  .sobre_mi,
+  .skills,
+  .Formacion_academica,
+  .experiencia_profesional,
+  .contacto {
+    flex: 1;
+    /* clear: both; /* Remove this line if not needed */
+  }
+
+
+
